@@ -1,0 +1,10 @@
+type Query {
+  students: [Student]
+  getTime: String
+}
+type Student {
+  id: ID!
+  firstName: String
+  lastName: String
+  fullName: String
+}
